@@ -1,4 +1,4 @@
-name: Run Task
+name: Run Task on ${{ github.event.inputs.env }}
 on:
   workflow_dispatch:
     inputs:
